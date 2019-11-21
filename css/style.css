@@ -1,0 +1,274 @@
+
+                                                        /*global css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%;}
+.col-12{ width: 100%;}
+
+[class*='col-']{
+    float: left;
+    /*border: 1px solid deeppink;*/
+}
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+                                                       /*header top*/
+.header-top{
+    height: 120px;
+    margin-top: 20px;
+}
+.call-us span i{padding-top: 20px;
+    float: left;
+    padding-right: 15px;
+padding-left: 60px;
+}
+.call-us p{
+    color:darkgreen;}
+.call-us h3{
+    padding-top:20px;
+padding-bottom: 5px;}
+
+
+                                                    /*menu css*/
+nav{
+    height: 50px;
+margin-bottom: 10px;}
+.menu{
+    height: 50px;
+}
+.menu li {
+    text-decoration: none;
+    list-style: none;
+}
+.menu li a{
+    padding: 17px 40px 17px 40px;
+    float: left;
+    text-decoration:none;
+    color:black;
+    display: block;
+
+}
+.menu li a:hover{background-color:greenyellow;
+    border-radius: 20px;
+    color: white;
+}
+
+                                                      /*slider css*/
+
+.slider{background-color: cornflowerblue;
+min-height: 200px;
+}
+.img img{
+    height: 200px;
+    width: 100%;
+
+}
+.slider-content h1{
+    padding: 12px 0 12px 0;
+    color: white;
+}
+.slider-content p{text-align: justify;
+    color: white;
+padding-right: 200px;}
+
+                                                       /*content css*/
+
+.our-games{
+    padding: 15px 0 15px 0;
+    color: dimgrey;}
+.games{margin-bottom: 35px;
+    padding-right: 20px;
+}
+.games h3{
+    padding: 30px 0 20px 0;}
+.games img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+.games h4{
+    color: cornflowerblue;
+    padding-bottom: 5px;
+}
+.games p{text-align: justify;}
+.games a{
+    float: right;
+    color: red;
+    text-decoration: none;
+}
+                                                      /*side bar css*/
+.testimonial{margin-bottom: 20px;}
+.testimonial img{
+    height: 80px;
+    width: 80px;
+    float: left;
+margin-right: 20px;
+}
+.testimonial p{text-align: justify;}
+.testimonial h5{
+    padding: 10px 0 10px 0;
+    color: cornflowerblue;}
+.testimonial h5 a{text-decoration: none;
+    color: red;
+    float: right;
+}
+
+                                                        /*content 2 css*/
+.team h3{
+    padding: 20px 0 20px 0;
+    color: dimgray;}
+.team img{
+    height: 140px;
+    width: 230px;
+    float: left;
+    margin-right: 15px;
+}
+.team p{
+    padding:0 20px 0 0px;
+text-align: justify;
+}
+.Read-more{
+    float: right;
+    height: 40px;
+    width: 100px;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 13px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.Read-more a{text-decoration: none;
+    color: white;
+}
+.Read-more:hover{background-color: lawngreen;
+    border-top: 2px solid greenyellow;
+}
+.regi a img{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.add img{
+    height: 210px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+                                                  /*big footer css*/
+.Eventment h3{margin-top: 35px;
+    margin-bottom: 5px;}
+.Eventment P{margin-bottom: 5px;}
+
+
+.name h4{
+    color:gray;}
+.course p{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: gray;
+}
+
+
+                                  /*footer*/
+.footer {
+    background-color: gray;
+    margin-top: 50px;
+    min-height: 200px;
+    border-top: 8px solid dimgray;
+    padding-bottom: 25px;
+}
+
+
+
+
+.navigation h2{padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    color: white;
+}
+.navigation ul{
+    float: left;
+    padding-left: 30px;
+    color: white;
+}
+.navigation p{
+    color:white;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.icon{margin-bottom: 10px;
+margin-left: 10px;}
+.icon span i{
+    float: left;
+margin-right: 15px;
+
+}
+.icon p{
+    color: white;}
+ .input input{margin-left: 10px;
+     width: 95%;
+     height: 30px;
+ }
+.search{background-color: mediumblue;
+    height: 30px;
+    box-shadow: 0 0 1px 1px;
+}
+.search a h3{
+    color: white;
+    padding: 3px 0 0 20px;
+}
+
+
+
+ .small-footer{background-color: dimgray;
+    height: 35px;
+    margin-bottom: 30px;
+}
+.small-footer P{text-align: center;
+     padding-top: 10px;
+    color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
